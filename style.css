@@ -545,6 +545,29 @@ body {
   font-size: 0.9rem;
 }
 
+.footer-bottom a {
+  color: #22c55e; /* Use a green color for better contrast */
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-bottom a:hover {
+  text-decoration: underline; /* Add underline on hover for better visibility */
+}
+
+.footer a {
+  color: #22c55e; /* Green for unvisited links */
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: #9ca3af; /* Gray for visited links */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-menu {
