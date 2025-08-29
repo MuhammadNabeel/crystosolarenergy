@@ -56,6 +56,12 @@ body {
   font-size: 1.8rem;
 }
 
+.logo-mini {
+  width: 2.5rem; /* Increased size */
+  height: auto;
+  display: inline-block;
+}
+
 .nav-menu {
   display: flex;
   list-style: none;
